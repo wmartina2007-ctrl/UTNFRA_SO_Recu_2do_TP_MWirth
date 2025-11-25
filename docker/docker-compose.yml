@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  webserver:
+    image: wmartina2007/web2-wirth
+    container_name: mi_examen_nginx
+    ports:
+      - "81:80"
+    volumes:
+contenedor
+      - ./web/file:/usr/share/nginx/html/file/
+    restart: always

@@ -1,0 +1,4 @@
+Nombre de tu usuario: sartoei
+ID de tu usuario: 1002
+Hash pass de tu usuario: $y$j9T$pu3X1UsBKe14Q8rJWTJ03I3E7h6YG4/rooYPV0U8AvTZ869PWtk214k0BDC6bGhp8C
+
