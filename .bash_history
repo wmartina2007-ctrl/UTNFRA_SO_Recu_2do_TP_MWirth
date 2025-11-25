@@ -158,3 +158,56 @@ git push -u origin main
 git add .
 git push -u origin main
 git pull
+git add .
+git remove -v
+git remote -v
+push
+git push -u origin main
+git push -u origin
+git push -u origin main
+git pull origin main --allow-unrelated-histories
+git commit -m "Merge remote-tracking branch 'origin/main'"
+git push -u origin main
+pwd
+cd /home/vagrant
+cat << EOF >> Lista_Animales.txt
+Pato;TO
+Perro;TM
+Gallina;TO
+Ballena;AG
+Gato;TM
+EOF
+
+/usr/local/bin/clasif_Animales.sh Lista_Animales.txt
+ls -l /usr/local/bin/
+sudo nano /usr/local/bin/clasif_Animales.sh
+git config --globar user.email "wmartina2007
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git config --globar user.email "wmartina2007
+sudo nano /usr/local/bin/clasif/_Animales.sh
+/usr/local/bin/clasif_Animales.sh Lista_Animales.txt
+mkdir -p RTA_Examen_20251125
+cp /usr/local/bin/clasif_Animales.sh RTA_Examen_20251125/
+sudo mkdir -p /usr/local/bin
+sudo nano /usr/local/bin/clasif_Animales.sh
+while IFS=';' read -r ANIMAL HABITAT; do ANIMAL=$(echo "$ANIMAL" | xargs); HABITAT=$(echo "$HABITAT" | xargs) EFO EOF do
+cd
+tree
+sudo nano /usr/local/bin/clasif_Animales.sh
+sudo chmod +x /usr/local/bin/clasif_Animales.sh
+/usr/local/bin/clasif_Animales.sh Lista_Animales.txt
+tree /tmp/Animales
+cat /tmp/animales.txt

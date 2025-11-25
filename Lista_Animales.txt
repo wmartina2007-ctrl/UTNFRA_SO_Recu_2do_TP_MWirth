@@ -1,0 +1,5 @@
+Pato;TO
+Perro;TM
+Gallina;TO
+Ballena;AG
+Gato;TM
