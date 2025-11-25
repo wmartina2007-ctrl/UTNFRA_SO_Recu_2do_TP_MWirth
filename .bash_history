@@ -131,3 +131,30 @@ sudo pvdisplay
 sudo vgdisplay vg_datos
 sudo lvdisplay vg_datos
 sudo swapon --show
+git add .
+cd ~
+cd~
+git init
+git remote add origin https://github.com/wmartina2007-ctrl/UTNFRA_SO_Recu_2do_TP_MWirth.git
+git push -u origin main
+git add
+git commit -m "Commit inicial: Configuracion LVM completada"
+git config --global user.email "wmartina2007@gmail.com"
+git config --global user.email "Martina Wirth"
+git commit -m "Commit inicial: Configuracion LVM completada"
+git config --global user.name "Martina Wirth"
+git commit -m "Commit inicial: Configuracion LVM completada"
+git push -u origin main
+git branch -M main
+git push -u origin main
+git branch -M main
+git push -u origin main
+git pull origin main --allow-unrelated-histories
+git push -u origin main
+Merge branch 'main' of https://github.com/wmartina2007-ctrl/UTNFRA_SO_RECU_2do_TP_MWirth.git
+merge branch 'main' of https://github.com/wmartina2007-ctrl/UTNFRA_SO_Recu_2do_TP_MWirth.git
+apt install recs
+git push -u origin main
+git add .
+git push -u origin main
+git pull
