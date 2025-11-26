@@ -1,0 +1,12 @@
+yaml
+
+
+---
+- name: Ejecucion de Tareas de Examen D
+  hosts: localhost
+  become: yes
+  roles:
+    - 2PRecuperatorio
+    - Crea_Carpetas_wirth
+    - Cambia_Propiedad_wirth
+    - Sudoers_wirth

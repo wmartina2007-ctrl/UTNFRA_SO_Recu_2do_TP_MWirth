@@ -1,0 +1,19 @@
+yaml
+
+---
+- name 1.
+  file:
+    path: /UTN/Alumno
+    owner: Alumno
+    group: GAlumnos
+    mode: '0700'
+    state: directory
+
+- name 2.
+  file:
+    path: /UTN/Profesor
+    owner: Profesor
+    group: GProfesores
+    mode: '0700'
+    state: directory
+

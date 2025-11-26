@@ -1,0 +1,20 @@
+yaml 
+
+
+---
+- name 1. Crear directorio base
+  file:
+    path: /UTN
+    state: directory
+    mode: '0755'
+
+-name 2. Crear subdirectorios
+ file:
+   path: "{{ item }}"
+   state: directory
+   mode: '0755'
+ loop:
+   - /UTN/Alumno
+   - /UTN/Profesor
+
+

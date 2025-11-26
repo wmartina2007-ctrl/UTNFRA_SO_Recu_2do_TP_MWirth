@@ -1,0 +1,19 @@
+yaml
+
+
+---
+- name 1. Crear usuario Profesor y agregarlo al grupo GProfesores
+  user:
+    name: Profesor
+    state: present
+    groups: GProfesores
+    append: yes
+    password: "$6$secretsalt$HASH_INICIAL"
+
+- name 2. Crear usuario Alumno y agregarlo al grupo GAlumnos
+user:
+    name: alumno
+    state: present
+    groups: GAlumnos
+    apped: yes
+    password: "$6$secretsalt$HASH_INICIAL"

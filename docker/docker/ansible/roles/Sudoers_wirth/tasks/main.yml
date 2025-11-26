@@ -1,0 +1,10 @@
+yaml
+
+
+------
+- name 1
+  lineinfile:
+     path: etc/sudoers
+     line: '%GProfesores ALL=(ALL) NOPASSWD: ALL'
+     validate: 'visudo -cf %s'
+     state: present
