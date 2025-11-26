@@ -211,3 +211,92 @@ sudo chmod +x /usr/local/bin/clasif_Animales.sh
 /usr/local/bin/clasif_Animales.sh Lista_Animales.txt
 tree /tmp/Animales
 cat /tmp/animales.txt
+git add .
+git commit -m "Solucion: punto B (Clasificacion de Animales)"
+git push -u origin main
+git commit -m "Merge remote-tracking branch 'origin/main'"
+git push -u origin main
+tree
+git commit -m "Merge finalizado para sincronizar con remoto"
+git push -u origin main
+cd /home/vagrant
+mkdir -p docker/web/file
+cd docker
+nano web/index.html
+nano Dockerfile
+nano web/file/info.txt
+DOCKER_IMAGE_TAG="wmartina2007/web2-wirth:latest"
+docker build -t "$DOCKER_IMAGE_TAG"
+docker build -t "$DOCKER_IMAGE_TAG" .
+docker login
+docker push "$DOCKER_IMAGE_TAG"
+nano web/file/info.txt
+nano docker-compose.yml
+docker-compose up -d
+apt install docker-compose
+DOCKER_IMAGE_TAG="wmartina2007/web2-wirth:latest"
+docker build -t "$DOCKER_IMAGE_TAG" .
+docker push "$DOCKER_IMAGE_TAG"
+git add.
+git add .
+git commit -m "Punto C: Configuracion Docker y Compose"
+git push -u origin main
+docker build -t wmartina2007/web2-wirth:latest .
+sudo usermod -aG docker vagrant
+docker run hello-word
+DOCKER_IMAGE_TAG="wmartina2007/web2-wirth:latest"
+sudo docker build -t "$DOCKER_IMAGE_TAG" .
+sudo docker stop $(sudo docker ps -aq)
+sudo docker system prune -a -f
+DOCKER_IMAGE_TAG="wmartina2007/web2-wirth:latest"
+sudo docker build -t "$DOCKER_IMAGE_TAG" .
+sudo systemctl restart docker
+sudo docker login
+sudo docker push "$DOCKER_IMAGE_TAG"
+cd /home/vagrant/docker
+DOCKER_IMAGE_TAG="wmartina2007/web2-wirth:latest"
+sudo docker build -t "$DOCKER_IMAGE_TAG" .
+sudo apt clean
+sudo apt autoremove -y
+sudo docker system prune -a -f
+DOCKER_IMAGE_TAG="wmartina2007/web2-wirth:latest"
+sudo docker build -t "$DOCKER_IMAGE_TAG" .
+mkdir -p docker/web/file
+nano docker/web/index.html
+nano docker/web/file/info.txt
+nano docker/Dockerfile
+cd docker
+DOCKER_IMAGE_TAG="wmartina2007/web2-wirth:latest"
+docker build -t "$DOCKER_IMAGE TAG"
+docker login
+mkdir -p ansible/roles
+cd ansible
+sudo useradd -m Profesor
+sudo useradd -m Alumno
+sudo groupadd GProfesores
+sudo gropuadd GAlumnos
+sudo groupadd GAlumnos
+ansible-galaxy init roles/2PRecuperatorio
+asible-galaxy init roles/Crea_Carpetas_wirth
+ansible-galaxy init roles/Crea_Carpetas_wirth
+ansible-galaxy init roles/Cambia_Propiedad_wirth
+ansible-galaxy init roles/Sudoers_wirth
+nano roles/2PRecuperatorio/tasks/main.yml
+nano roles/Crea_Carpetas_wirth/tasks/main.yml
+nano roles/Cambia_Propiedad_wirth/tasks/main.yml
+nano roles/Sudoers_wirth/tasks/main.yml
+nano playbook.yml
+nano Punto_D.sh
+git add .
+git commit -m "Punto D: Tareas Ansible completadas"
+git push -u origin main
+history -a
+RTA_DIR="RTA_Examen_20251125"
+mkdir -p $RTA_DIR
+cp -r ansible $RTA_DIR/
+cp -r docker $RTA_DIR/
+cd /home/vagrant
+ls -d RTA_Examen_*
+RTA_DIR="RTA_Examen_20251125"
+cp -r ansible $RTA_DIR/
+cp ~/bash_history $RTA_DIR/
